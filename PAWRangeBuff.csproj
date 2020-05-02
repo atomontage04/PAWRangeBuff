@@ -55,10 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Config.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="Main.cs" />
-    <Compile Include="ConfigLoader.cs" />
+    <Compile Include="src\Loader.cs" />
+    <Compile Include="src\Config.cs" />
+    <Compile Include="src\Logger.cs" />
+    <Compile Include="src\PAWRangeBuff.cs" />
+    <Compile Include="src\ConfigLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
