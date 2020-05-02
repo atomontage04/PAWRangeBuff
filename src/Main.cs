@@ -35,9 +35,9 @@ namespace PAWRangeBuff
 
                     foreach (BaseEvent kspevent in events)
                     {
-                        float unfocusedRangeBuff = (kspevent.unfocusedRange + biggestAttachNode) * Config.pawRangeCoef;
+                        float unfocusedRangeBuffed = (kspevent.unfocusedRange + biggestAttachNode) * Config.pawRangeCoef;
 
-                        kspevent.unfocusedRange += unfocusedRangeBuff;
+                        kspevent.unfocusedRange = unfocusedRangeBuffed;
                     }
                 }
             }
