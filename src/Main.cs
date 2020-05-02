@@ -9,10 +9,10 @@ namespace PAWRangeBuff
     {
         public PAWRangeBuff()
         {
-            GameEvents.onVesselLoaded.Add(this.onVesselLoader);
+            GameEvents.onVesselLoaded.Add(this.onVesselLoaded);
         }
 
-        private void onVesselLoader(Vessel vessel)
+        private void onVesselLoaded(Vessel vessel)
         {
             List<Part> parts = vessel.Parts;
             float biggestAttachNode = 0.0f;
