@@ -9,7 +9,7 @@ namespace PAWRangeBuff
     sealed class Config : MonoBehaviour
     {
         [PersistentField("pawRangeCoef")]
-        public static float pawRangeCoef = 0.0f;
+        public static float pawRangeCoef = 1.0f;
 
         public void Awake()
         {
