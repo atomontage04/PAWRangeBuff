@@ -1,2 +1,2 @@
-# KSPMods-PAWRangeBuff
+# PAWRangeBuff
 PAW Range Buff
