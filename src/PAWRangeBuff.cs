@@ -7,12 +7,29 @@ namespace PAWRangeBuff
     [KSPAddon(KSPAddon.Startup.Flight, false)]
     public class PAWRangeBuff : MonoBehaviour
     {
-        public PAWRangeBuff()
+        public void OnEnable()
         {
+            GameEvents.onVesselCreate.Add(this.onVesselCreated);
             GameEvents.onVesselLoaded.Add(this.onVesselLoaded);
         }
 
+        public void OnDisable()
+        {
+            GameEvents.onVesselCreate.Remove(this.onVesselCreated);
+            GameEvents.onVesselLoaded.Remove(this.onVesselLoaded);
+        }
+
         private void onVesselLoaded(Vessel vessel)
+        {
+            this.buffPawRange(vessel);
+        }
+
+        private void onVesselCreated(Vessel vessel)
+        {
+            this.buffPawRange(vessel);
+        }
+
+        private void buffPawRange(Vessel vessel)
         {
             List<Part> parts = vessel.Parts;
             float biggestAttachNode = 0.0f;
