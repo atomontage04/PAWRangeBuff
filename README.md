@@ -9,7 +9,7 @@ As of now, the formula is still a subject to change. For now, the modifier takes
 See `Settings.cfg` in the mod directory.
 
 ## INSTALLATION
-Just unzip the contents of a release archive to `<KSP_Dir>\GameData`.
+Just unzip the contents of a release archive to the KSP directory.
 
 ### Thanks to
 This mod uses [KSPDev Utils & Release Tools](https://forum.kerbalspaceprogram.com/index.php?/topic/150786-minimum-ksp-version-18-kspdev-logconsole-v21-utils-v22-releasetools-v11-localizationtool-v19/) created by IgorZ.
