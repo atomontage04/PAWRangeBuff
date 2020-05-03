@@ -37,7 +37,7 @@ namespace PAWRangeBuff
                     {
                         float unfocusedRangeBuffed = (kspevent.unfocusedRange + biggestAttachNode) * Config.pawRangeCoef;
                         kspevent.unfocusedRange = unfocusedRangeBuffed;
-                        Logger.log($"Buffed {kspevent.name} with range of {unfocusedRangeBuffed}");
+                        Logger.log(string.Format("Buffed {0} with range of {1}", kspevent.name, unfocusedRangeBuffed));
                     }
                 }
             }
