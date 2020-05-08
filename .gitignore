@@ -1,4 +1,7 @@
 /.vs/*
+/Tools/*
+/bin/*
+/obj/*
 */Tools/*
 */bin/*
 */obj/*
