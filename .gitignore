@@ -1,6 +1,4 @@
 /.vs/*
-KspReleaseBuilder.py
-PAWRangeBuff_*.zip
-/Tools/*
-/bin/*
-/obj/*
+*/Tools/*
+*/bin/*
+*/obj/*
