@@ -1,3 +1,6 @@
+[01.07.2020] 0.2.3
+-- recompile for KSP 1.10.0;
+
 [08.05.2020] 0.2.2
 -- separate pre-1.8.0 source from 1.8+ (no changes for end-users);
 -- update formula so it does not change the range if it thinks it is already sufficient;
